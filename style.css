@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'rubik';
+    src: url(assets/fonts/Rubik/static/Rubik-Regular.ttf);
+}
+ /* navbar */
+
+
+ .nav-bg{
+    background-color: white;
+}
+
+.navigation-bar{
+    background-color: orangered;
+}
+.menu-list li a{
+    font-family: 'rubik';
+    font-size: 16px;
+    color:#2B2B2B;
+    }
+
+    .signin-btn{
+        font-family: 'rubik';
+        font-size: 16px;
+        color: #F53838;
+        border-radius: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-color: #F53838;
+        border-width: 2px;
+
+    }
+
+    .signup-btn{
+        font-family: 'rubik';
+        font-size: 16px;
+        color: #2B2B2B;
+        border-radius: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+        
+
+    }
+    .signin-btn:hover{
+        font-family: 'rubik';
+        font-size: 16px;
+        color: #2B2B2B;
+        border-radius: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+        background-color: #F53838;
+     }
+
+     .signup-btn:hover{
+        font-family: 'rubik';
+        font-size: 16px;
+        color: #2B2B2B;
+        border-radius: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+        background-color: #F53838
+        
+
+    }
+
+    /* hero-section */
+
+    .hero-image{
+        height: 569px;
+        width: 356px;
+    }
+    .hero-text{
+        margin-top: 70px;
+        font-family: 'rubik';
+        font-size: 50px;
+
+    }
+    .hero-text-2{
+        font-family: 'rubik';
+        color: #2B2B2B;
+        font-size: 12px;
+
+    }
+    .hero-section-btn{
+        background-color: #F53838;
+        font-family: 'rubik';
+        font-size: 18px;
+        color: white;
+        padding: 10px 25px;
+        border-radius: 25px;
+        border: none;
+    }
+
+    .reach-card{
+        width: 520;
+        height: 114px;
+        background-color: greenyellow;
+        box-shadow: 6px 13px 35px #000000;
+        margin-bottom: 300px;
+        border-radius: 20px;
+    }
+
+    
+    .reach-card-users-icon{
+        height: 37px;
+        width: 37px;
+        background-color: rgba(245, 56, 56, 0.238);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: #F53838;
+    }
+
+    .reach-card-users-text-1{
+        font-family: 'rubik';
+        font-size: 20px; }
+        .reach-card-users-text-2{
+            font-family: 'rubik';
+            font-size: 15px;
+            color: #646464;
+            line-height: 0%;
+        }
+.vl{
+    width: 40px;
+    transform: rotate(90deg);
+    background-color: #AEAEAE;
+    margin-left: 220px;
+    margin-top: 60px;
+    margin-bottom: auto;
+}
+
+
+
+.data-box{
+    width: 820px;
+    height: 114px;
+    background-color: #FFFFFF;
+    box-shadow: 6px 13px 35px #000000;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    margin: auto;
+}
+.data-box-for-small-screen{
+    width: 250px;
+    height: 420px;
+    background-color: #FFFFFF;
+    box-shadow: 6px 13px 35px #000000;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.features-text{    
+    font-family: 'rubik';
+}
+.features-heading{
+    font-family: 'rubik';
+}
+.features-list li{
+    
+    list-style-image: url(assets/images/tick.png);
+    line-height: 40px;
+
+}
+
+
+    @media only screen and (max-width: 480px) {
+        .hero-image{
+            height: 191px;
+            width:100%;
+            display: flex;
+            justify-content: center;
+        }
+    }
